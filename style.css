@@ -1,0 +1,47 @@
+body{
+    background-color: #fdd11e;
+    margin: 0%;
+}
+#yellowBox{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+#redBox{
+    background-color: #ff555a;
+    height: 25vh;
+    width: 100vw;
+    clip-path: polygon(0% 0%,35% 0, 50% 50%, 65% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.text{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.div-1{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7c660f;
+}
+
+.circle{
+    display: flex;
+    height: 71px;
+    width: 71px;
+    background-color: #b19215;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
